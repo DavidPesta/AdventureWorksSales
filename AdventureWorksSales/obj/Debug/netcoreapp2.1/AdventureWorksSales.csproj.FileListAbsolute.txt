@@ -1,0 +1,14 @@
+C:\Users\User\Desktop\AdventureWorksSales\AdventureWorksSales\bin\Debug\netcoreapp2.1\AdventureWorksSales.deps.json
+C:\Users\User\Desktop\AdventureWorksSales\AdventureWorksSales\bin\Debug\netcoreapp2.1\AdventureWorksSales.runtimeconfig.json
+C:\Users\User\Desktop\AdventureWorksSales\AdventureWorksSales\bin\Debug\netcoreapp2.1\AdventureWorksSales.runtimeconfig.dev.json
+C:\Users\User\Desktop\AdventureWorksSales\AdventureWorksSales\bin\Debug\netcoreapp2.1\AdventureWorksSales.dll
+C:\Users\User\Desktop\AdventureWorksSales\AdventureWorksSales\bin\Debug\netcoreapp2.1\AdventureWorksSales.pdb
+C:\Users\User\Desktop\AdventureWorksSales\AdventureWorksSales\obj\Debug\netcoreapp2.1\AdventureWorksSales.csprojAssemblyReference.cache
+C:\Users\User\Desktop\AdventureWorksSales\AdventureWorksSales\obj\Debug\netcoreapp2.1\AdventureWorksSales.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\AdventureWorksSales\AdventureWorksSales\obj\Debug\netcoreapp2.1\AdventureWorksSales.RazorAssemblyInfo.cache
+C:\Users\User\Desktop\AdventureWorksSales\AdventureWorksSales\obj\Debug\netcoreapp2.1\AdventureWorksSales.RazorAssemblyInfo.cs
+C:\Users\User\Desktop\AdventureWorksSales\AdventureWorksSales\obj\Debug\netcoreapp2.1\AdventureWorksSales.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\AdventureWorksSales\AdventureWorksSales\obj\Debug\netcoreapp2.1\AdventureWorksSales.AssemblyInfo.cs
+C:\Users\User\Desktop\AdventureWorksSales\AdventureWorksSales\obj\Debug\netcoreapp2.1\AdventureWorksSales.RazorTargetAssemblyInfo.cache
+C:\Users\User\Desktop\AdventureWorksSales\AdventureWorksSales\obj\Debug\netcoreapp2.1\AdventureWorksSales.dll
+C:\Users\User\Desktop\AdventureWorksSales\AdventureWorksSales\obj\Debug\netcoreapp2.1\AdventureWorksSales.pdb

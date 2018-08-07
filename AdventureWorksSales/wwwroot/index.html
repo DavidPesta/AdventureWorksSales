@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Adventure Works Sales</title>
+        <script type="text/javascript" src="/vendor/knockout-3.4.2.js"></script>
+        <script type="text/javascript" src="/vendor/jquery-3.3.1.min.js"></script>
+        <script type="text/javascript" src="/vendor/moment.min.js"></script>
+        <script type="text/javascript" src="/vendor/pikaday.js"></script>
+        <link rel="stylesheet" href="/vendor/pikaday.css">
+        <link rel="stylesheet" href="/vendor/pikaday-site.css">
+        <script type="text/javascript" src="/page.js"></script>
+    </head>
+    <body>
+        <strong>Start Date: <input id="startDate" data-bind="value: startDate" /> End Date: <input id="endDate" data-bind="value: endDate" /></strong>
+        <button data-bind="click: fetchData">Submit</button>
+        <button data-bind="click: downloadExcel">Download Excel</button>
+
+        <table style="margin-top: 20px;">
+            <thead>
+                <tr>
+                    <th>Sold At</th>
+                    <th>Sold To</th>
+                    <th>Account Number</th>
+                    <th>Invoice #</th>
+                    <th>Customer PO #</th>
+                    <th>Order Date</th>
+                    <th>Due Date</th>
+                    <th>Invoice Total</th>
+                    <th>Product Number</th>
+                    <th>Order Qty</th>
+                    <th>Unit Net</th>
+                    <th>Line Total</th>
+                </tr>
+            </thead>
+            <tbody data-bind="foreach: salesData">
+                <tr>
+                    <td data-bind="text: StoreName"></td>
+                    <td><div data-bind="text: FirstName"></div> <div data-bind="text: LastName"></div></td>
+                    <td data-bind="text: AccountNumber"></td>
+                    <td data-bind="text: SalesOrderNumber"></td>
+                    <td data-bind="text: PurchaseOrderNumber"></td>
+                    <td data-bind="text: OrderDate"></td>
+                    <td data-bind="text: DueDate"></td>
+                    <td data-bind="text: TotalDue"></td>
+                    <td data-bind="text: ProductNumber"></td>
+                    <td data-bind="text: OrderQty"></td>
+                    <td data-bind="text: UnitPrice"></td>
+                    <td data-bind="text: LineTotal"></td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
